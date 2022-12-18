@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="css/style.css">
+     <title>Document</title>
+</head>
+<body>
+  <div class="wrapper">
+
+ <div class="registration_form">
+<!-- Title -->
+  <div class="title">
+    Registration Form
+  </div>
+
+  <!-- Form -->
+ <form action="/register" method="POST">
+  <div class="form_wrap">
+   <div class="input_grp">
+
+<!-- Frist name input Place -->
+     <div class="input_wrap">
+  	<label for="fname">First Name</label>
+  	<input type="text" id="fname" name="firstname">
+     </div>
+
+<!-- Last Name input place -->
+    <div class="input_wrap">
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname">
+    </div>
+  </div>
+
+<!-- Email Id input Place -->
+ <div class="input_wrap">
+  <label for="email">Email Address</label>
+  <input type="text" id="email" name="email">
+ </div>
+
+ <div class="input_wrap">
+  <label for="password">Password</label>
+  <input type="text" id="password" name="password">
+ </div>
+
+ <div class="input_wrap">
+  <label for="confirm password">Password</label>
+  <input type="text" id="password" name="confirmpassword">
+ </div>
+
+<!-- City Name input place -->
+ <div class="input_wrap">
+  <label for="phone number">Phone number</label>
+  <input type="text" id="city" name="phonenumber">
+ </div>
+
+
+
+ <!-- Gender Select box -->
+ <div class="input_wrap">
+   <label>Gender</label>
+  <ul>
+   <li>
+     <label class="radio_wrap">
+  	<input type="radio" name="role" value="Doctor" class="input_radio" checked>
+  	<span>Doctor</span>
+     </label>
+  </li>
+
+  <li>
+    <label class="radio_wrap">
+  	<input type="radio" name="role" value="User" class="input_radio">
+  	<span>User</span>
+   </label>
+  </li>
+ </ul>
+</div>
+
+<!-- Submit button -->
+ <div class="input_wrap">
+   <input type="submit" value="Register Now" class="submit_btn">
+ </div>
+
+</div>
+</form>
+</div>
+</div>
+    
+    
+</body>
+</html>
+
+
+
